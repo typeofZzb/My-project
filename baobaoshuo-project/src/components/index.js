@@ -1,0 +1,5 @@
+exports.MyFoot=()=>import("./footer.vue")
+exports.BLSitem=()=>import("./babylookstoryitem.vue")
+exports.CartoonItem=()=>import("./cartoonList.vue")
+exports.SongHeader=()=>import("./header.vue")
+exports.MyBScroll=()=>import("./Bscroll/bscroll.vue")

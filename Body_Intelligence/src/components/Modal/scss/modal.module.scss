@@ -1,0 +1,16 @@
+.modal{
+    width: 50px;
+    height: 300px;
+    overflow: hidden;
+    
+    :global{
+        .ant-modal-content{
+            height: 300px;
+            overflow: hidden;
+        }
+        .ant-modal-body{
+            height: 200px;
+            overflow: auto;
+        }
+    }
+}
